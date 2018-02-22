@@ -1,5 +1,7 @@
 package com.oc.rss.oc_rss;
 
+import android.content.res.Resources;
+import android.support.v4.os.ConfigurationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,7 +27,13 @@ public class DiceActivity extends AppCompatActivity {
         max = getIntent().getIntExtra("max", 0);
 
         TextView textTitle = findViewById(R.id.textTitle);
-        textTitle.setText(max + " sided dice");
+
+
+        if(Resources.getSystem().getConfiguration().locale.getLanguage() == "fr"){
+            textTitle.setText("Dé à "+ max + " " + getString(R.string.sided_dice));
+        } else {
+            textTitle.setText(max + " " + getString(R.string.sided_dice));
+        }
 
         textResult = findViewById(R.id.textResult);
         textResult.setText("");

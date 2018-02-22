@@ -29,6 +29,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="20dp"
-        android:text="Roll the dice..."
+        android:text="@string/roll_the_dice"
         android:textSize="18sp" ></Button>
 </LinearLayout>

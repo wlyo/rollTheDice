@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="20dp"
-            android:text="6 sided dice"
+            android:text="@string/sided_dice_6"
             android:textSize="18sp" />
 
     </FrameLayout>
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:padding="20dp"
-            android:text="20 sided dice"
+            android:text="@string/sided_dice_20"
             android:textSize="18sp" />
 
     </FrameLayout>

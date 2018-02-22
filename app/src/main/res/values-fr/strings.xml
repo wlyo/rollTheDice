@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sided_dice_6">Dé à 6 faces</string>
+    <string name="sided_dice_20">Dé à 20 faces</string>
+    <string name="roll_the_dice">Lancer le dé!</string>
+    <string name="sided_dice">Faces</string>
+</resources>
